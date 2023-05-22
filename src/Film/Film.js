@@ -110,7 +110,7 @@ export default class Film extends React.Component {
                                 listCast.map((item, index) => {
                                     return (
                                         <div className="wrap-item" key={index}>
-                                            <img className="profile-image" src={item.profile_path !== null ? ("https://image.tmdb.org/t/p/w200/" + item.profile_path) : ("https://upload.wikimedia.org/wikipedia/commons/9/9a/No_avatar.png")} alt=""></img>
+                                            <img className="profile-image" src={item.profile_path !== null ? ("https://image.tmdb.org/t/p/w200/" + item.profile_path) : ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLxKO10UasXg7mO30FlOuE-DQCQCOZwdq1Pw&usqp=CAU")} alt=""></img>
                                             <h4> {item.name}</h4>
                                             <div>{item.character ? item.character : ""}</div>
                                         </div>
